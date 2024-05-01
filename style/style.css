@@ -88,17 +88,17 @@ a {
 }
 
 .pre-header__box div i {
-  font-size: 1.4rem;
   margin-right: 10px;
+  font-size: 1.7rem;
 }
 
 .pre-header__box div a {
-  font-size: 1.3rem;
   cursor: pointer;
+  font-size: 1.7rem;
 }
 /* Header */
 .logo {
-  width: 140px;
+  width: 180px;
   cursor: pointer;
 }
 
@@ -125,20 +125,21 @@ header:hover {
 }
 .navlinks > li {
   display: block;
-  margin: 0 14px;
+  margin: 0 0 0 22px;
   padding: 10px 0;
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: var(--primary-clr);
   text-decoration: none;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .sub-navMenu > a::after {
   content: "\f0d7";
   position: absolute;
   font-family: "Font Awesome 5 Pro";
-  right: -14px;
+  right: -20px;
 }
 .sub-navMenu:hover > a::after {
   content: "\f0d8";
@@ -152,11 +153,11 @@ header:hover {
 }
 .sub-navMenu-dropdown {
   position: absolute;
-  top: 39px;
+  top: 47px;
   background-color: var(--primary-clr);
   left: 0;
-  width: 220px;
-  padding: 20px 20px;
+  width: 300px;
+  padding: 23px 20px;
   display: none;
   border-radius: 2px;
   z-index: 15;
@@ -165,7 +166,7 @@ header:hover {
   color: white;
   font-weight: 600;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-top: 10px;
   transition: all 0.5s ease-in-out;
 }
@@ -213,7 +214,7 @@ header:hover {
   height: 1.5px;
 }
 .contactUs-btn button {
-  font-size: 1.35rem;
+  font-size: 1.6rem;
   color: white;
   text-decoration: none;
   width: 100%;
@@ -226,7 +227,7 @@ header:hover {
   border: none;
   z-index: 999;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .contactUs-btn button:hover {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
@@ -239,7 +240,7 @@ header:hover {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 210px;
+  width: 270px;
   z-index: 999;
   background-color: white;
   box-shadow: -3px 0 15px rgba(0, 0, 0, 0.2);
@@ -259,14 +260,15 @@ header:hover {
   margin: 0 0 10px 0;
   color: var(--primary-clr);
   font-weight: 500;
+  font-size: 1.8rem;
 }
 .sidebar li > a:hover {
   color: var(--order-btn-clr);
 }
 .sidebar img {
   position: absolute;
-  bottom: 40px;
-  width: 130px;
+  bottom: 50px;
+  width: 180px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -275,10 +277,11 @@ header:hover {
   margin-left: 10px;
 }
 .hamburger-icon ion-icon {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--primary-clr) !important;
   cursor: pointer;
   margin-top: 5px;
+  margin-left: 15px;
 }
 .close-icon ion-icon {
   font-size: 25px;
@@ -303,7 +306,7 @@ header:hover {
   color: var(--order-btn-clr);
   font-weight: 600;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 8px;
 }
 .sidebar-subNavMenu-dropdown nav a:hover {
@@ -436,14 +439,14 @@ header:hover {
   /* background-color: rgba(222, 203, 164, 0.4); */
 }
 .swiper-slide-content h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: "Bebas Neue", sans-serif;
   color: white;
   font-weight: 500;
-  line-height: 6.2rem;
+  line-height: 8.4rem;
 }
 .swiper-slide-content p {
-  font-size: 2rem;
+  font-size: 2.6rem;
   font-family: "Bebas Neue", sans-serif;
   color: white;
   margin-bottom: 20px;
@@ -462,8 +465,8 @@ header:hover {
   background-color: var(--order-btn-bg-clr);
   padding: 7px 25px;
   font-family: "Bebas Neue", sans-serif;
-  border-radius: 20px;
-  font-size: 2rem;
+  border-radius: 14px;
+  font-size: 2.5rem;
   display: block;
   letter-spacing: 1px;
   transition: all 0.3s ease-in-out;
@@ -480,7 +483,7 @@ header:hover {
 .intro-section div h2 {
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 4.7rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
@@ -488,7 +491,7 @@ header:hover {
 }
 .intro-section div p {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
@@ -502,10 +505,10 @@ header:hover {
 .intro-section div button a {
   background-color: var(--primary-clr);
   color: white;
-  padding: 8px 28px;
+  padding: 10px 28px;
   display: block;
   border-radius: 2px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   transition: all 0.4s ease-in-out;
 }
 .intro-section div button a:hover {
@@ -530,7 +533,7 @@ header:hover {
 .courses-section__flex div h3 {
   color: var(--order-btn-clr);
   line-height: 26px;
-  font-size: 2.6rem;
+  font-size: 2.9rem;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1.5px;
   text-align: center;
@@ -560,7 +563,7 @@ header:hover {
 
 .courses-card-btn {
   color: #121212;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 800;
   display: flex;
@@ -643,8 +646,8 @@ header:hover {
   display: block;
   text-align: center;
   margin-top: 25px;
-  font-size: 2.2rem;
-  line-height: 2.4rem;
+  font-size: 2.6rem;
+  line-height: 2.7rem;
   font-weight: 500;
   color: var(--order-btn-clr);
   font-family: "Bebas Neue", sans-serif;
@@ -668,7 +671,7 @@ header:hover {
   color: white;
   background-color: #f8fafb;
   height: 100%;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -679,7 +682,7 @@ header:hover {
   width: 100%;
 }
 .offer-section-flexbox-left h2 {
-  font-size: 4.6rem;
+  font-size: 4.7rem;
   font-weight: 700;
   line-height: 1.1em;
   padding-bottom: 15px;
@@ -703,7 +706,7 @@ header:hover {
   width: 60px;
 }
 .offer-section-flexbox-right div h3 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: white;
   margin-top: 10px;
@@ -729,11 +732,10 @@ footer {
 }
 
 .footer-grid-left img {
-  width: 180px;
+  width: 200px;
 }
 
 .footer-grid-left p {
-  font-size: 1.4rem;
   margin-top: 15px;
   color: var(--text-grey-clr);
 }
@@ -751,7 +753,7 @@ footer {
   margin-bottom: 5px;
   color: var(--text-grey-clr);
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .footer-grid-mid ul li a:hover {
@@ -764,18 +766,17 @@ footer {
 }
 
 .footer-grid-right div i {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-right: 10px;
   color: var(--primary-clr);
 }
 .footer-grid-right div > span {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: var(--primary-clr);
 }
 
 .footer-grid-right div > a {
-  font-size: 1.4rem;
   margin-top: 4px;
   display: block;
   color: var(--order-btn-clr);
@@ -783,12 +784,12 @@ footer {
 
 .footer-grid-right div > p {
   color: var(--order-btn-clr);
-  font-size: 1.4rem;
+
   margin-top: 4px;
 }
 
 .copyright-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   border-top: 1.5px solid var(--primary-clr);
   text-align: center;
   padding: 20px;
@@ -802,7 +803,7 @@ footer {
 }
 .page-hero-img {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
@@ -813,7 +814,7 @@ footer {
   left: 0;
   right: 0;
   top: 0;
-  height: 50vh;
+  height: 40vh;
   background-color: rgba(10, 11, 11, 0.5);
   z-index: 10;
 }
@@ -826,7 +827,7 @@ footer {
 }
 
 .page-hero-text h1 {
-  font-size: 5.5rem;
+  font-size: 6rem;
   color: #ffffff;
   font-family: "bebas neue", sans-serif;
   letter-spacing: 1.5px;
@@ -860,8 +861,8 @@ footer {
 }
 .contact-us-section-form h2 {
   font-weight: 400 !important;
-  font-size: 2.4rem;
-  margin-bottom: 15px;
+  font-size: 2.7rem;
+  margin-bottom: 10px;
 }
 .contact-us-section-form form div {
   display: flex;
@@ -877,7 +878,7 @@ footer {
 .contact-us-section-form form label {
   text-transform: uppercase;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 30px 0 8px 0;
 }
@@ -894,14 +895,14 @@ footer {
 .contact-us-section-form form button {
   text-transform: uppercase;
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   background: none;
   background-color: var(--primary-shade-2);
   color: #ffffff;
   outline: none;
   border: none;
-  padding: 8px 24px;
+  padding: 10px 27px;
   margin: 15px 0 10px 0;
   border-radius: 3px;
   transform: translateX(0);
@@ -927,8 +928,8 @@ footer {
 }
 .contact-us-section-grid-right h2 {
   font-weight: 400 !important;
-  font-size: 2.4rem;
-  margin-bottom: 25px;
+  font-size: 2.7rem;
+  margin-bottom: 20px;
   color: #fff;
 }
 .contact-us-section-grid-right div {
@@ -941,16 +942,15 @@ footer {
 }
 .contact-us-section-grid-right h3 {
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .contact-us-section-grid-right h3 a,
 .contact-us-section-grid-right h3 span {
   font-weight: 300;
-  font-size: 1.4rem;
 }
 .contact-us-section-grid-right div i {
   color: #fff;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   padding: 0 10px 0 0;
   border-radius: 50%;
   margin-right: 6px;
@@ -962,7 +962,7 @@ footer {
 }
 .about-hero-img {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   object-fit: cover;
   object-position: 20% 70%;
   background-repeat: no-repeat;
@@ -985,18 +985,18 @@ footer {
 .why-smartcerts-grid-left h2 {
   color: var(--primary-clr);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
 
 .why-smartcerts-grid-left div {
   display: flex;
-  margin-bottom: 15px;
+  margin-top: 20px;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  column-gap: 15px;
+  column-gap: 20px;
 }
 
 .why-smartcerts-grid-left div h3 {
@@ -1012,7 +1012,7 @@ footer {
   border-radius: 2px;
 }
 .why-smartcerts-grid-left div p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 /* ---------------About Section--------------- */
 .about-section {
@@ -1025,7 +1025,7 @@ footer {
 }
 .about-section-grid-left p {
   margin-bottom: 10px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .about-section-grid-left p span {
   color: var(--primary-clr);
@@ -1043,16 +1043,16 @@ footer {
 .about-section-bottom p {
   color: var(--text-grey-clr);
   margin: 40px 0 10px 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .about-section-bottom span {
   color: var(--order-btn-clr);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: block;
 }
 .about-section-bottom span a {
   color: var(--primary-clr);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 /* ---------------------Courses Page-------------------- */
@@ -1064,14 +1064,14 @@ footer {
 .courses-section-box .course-name {
   color: var(--primary-clr);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  line-height: 4.3rem;
+  line-height: 5.3rem;
 }
 
 .courses-section-box .course-duration {
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   margin-bottom: 5px;
   line-height: 2.3rem;
@@ -1091,19 +1091,19 @@ footer {
 .courses-section-box > h2 {
   color: var(--primary-clr);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   letter-spacing: 1px;
   margin-bottom: 7px;
-  line-height: 3.4rem;
+  line-height: 4.4rem;
   font-weight: 400;
 }
 
 .courses-section-box > p {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 14px;
 }
 .courses-section-box > span {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 12px;
   font-weight: 500;
   color: #3e5151;
@@ -1122,8 +1122,8 @@ footer {
   color: white;
   display: block;
   text-transform: uppercase;
-  font-size: 1.5rem;
-  padding: 8px 20px;
+  font-size: 1.8rem;
+  padding: 12px 28px;
   border-radius: 2px;
   transition: all 0.5s ease-in;
 }
@@ -1138,7 +1138,7 @@ footer {
 }
 
 .courses-section-box ul li {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 7px;
   list-style-type: disc;
   list-style-position: inside;
@@ -1147,10 +1147,10 @@ footer {
 .courses-section-box > h3 {
   color: var(--primary-clr);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   margin: 25px 0 4px 0;
-  line-height: 3rem;
+  line-height: 3.4rem;
   font-weight: 400;
 }
 
@@ -1182,10 +1182,11 @@ footer {
 }
 .courses-section-box > .instruction > h4 {
   margin-bottom: 12px;
+  font-size: 2.4rem;
 }
 
 .courses-section-box > .instruction > p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 12px;
   font-weight: 500;
 }

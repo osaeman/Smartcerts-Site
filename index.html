@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Title -->
+    <title>Smart Certs | HOME</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/default-favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts -->
+    <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+  </head>
+  <body>
+    <!-- Pre Header -->
+    <div class="pre-header">
+      <div class="pre-header__box container-2">
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+44 74 667 263 53">+44 74 667 263 53</a>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Smartcertsltd@gmail.com">Smartcertsltd@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="container-1 header-box">
+        <img
+          src="./assets/WhatsApp Image 2024-04-27 at 22.19.05_e68c823a.jpg"
+          alt=""
+          class="logo"
+        />
+        <nav>
+          <ul class="navlinks">
+            <li class="items"><a href="./index.html">Home</a></li>
+            <li class="items"><a href="./pages/about.html">About</a></li>
+            <li class="items sub-navMenu">
+              <a>Courses </a>
+              <div class="sub-navMenu-dropdown">
+                <nav>
+                  <a href="./pages/cctvOperator.html">CCTV Operator Course</a>
+                  <a href="./pages/doorSupervisor.html"
+                    >Door Supervisor Course</a
+                  >
+                  <a href="./pages/doorSupervisorTop.html"
+                    >Door Supervisor Top Up Course</a
+                  >
+                  <a href="./pages/firstAid.html">First Aid Courses</a>
+                  <a href="./pages/foodSafety.html">Food Safety Course</a>
+                  <a href="./pages/securityGuarding.html"
+                    >Security Guarding Course</a
+                  >
+                  <a href="./pages/securityTraining.html">Security Trainer</a>
+                  <a href="./pages/trafficMarshal.html"
+                    >Traffic Marshal Course</a
+                  >
+                </nav>
+              </div>
+            </li>
+
+            <li class="contactUs-btn">
+              <button><a href="./pages/contact.html"> Contact Us</a></button>
+            </li>
+            <li onclick="showSidebar()" class="hamburger-icon">
+              <ion-icon name="menu-outline"></ion-icon>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick="closeSidebar()" class="close-icon">
+              <a href="#"><ion-icon name="close-outline"></ion-icon></a>
+            </li>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">About</a></li>
+            <li class="items sidebar-subNavMenu">
+              <a class="sidebar-subNavMenu-btn"
+                >Courses
+                <span class="sidebar-subNavMenu-btn-caret"
+                  ><i class="fas fa-caret-down"></i></span
+              ></a>
+
+              <div class="sidebar-subNavMenu-dropdown">
+                <nav>
+                  <a href="./pages/cctvOperator.html">CCTV Operator Course</a>
+                  <a href="./pages/doorSupervisor.html"
+                    >Door Supervisor Course</a
+                  >
+                  <a href="./pages/doorSupervisorTop.html"
+                    >Door Supervisor Top Up Course</a
+                  >
+                  <a href="./pages/firstAid.html">First Aid Courses</a>
+                  <a href="./pages/foodSafety.html">Food Safety Course</a>
+                  <a href="./pages/securityGuarding.html"
+                    >Security Guarding Course</a
+                  >
+                  <a href="./pages/securityTraining.html">Security Trainer</a>
+                  <a href="./pages/trafficMarshal.html"
+                    >Traffic Marshal Course</a
+                  >
+                </nav>
+              </div>
+            </li>
+            <img
+              src="./assets/WhatsApp Image 2024-04-27 at 22.19.05_e68c823a.jpg"
+              alt=""
+            />
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <!-- Swiper js -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./assets/cctv.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1">
+              <div>
+                <h1>CCTV Operator Course</h1>
+                <p>3 Days Training Course</p>
+                <button>
+                  <a href="./pages/cctvOperator.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/first aid.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1">
+              <div>
+                <h1>First Aid Courses</h1>
+                <p>Level 3 First Aid Courses</p>
+                <button>
+                  <a href="./pages/firstAid.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/food safety.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1">
+              <div>
+                <h1>Food Safety Course</h1>
+                <p>Level 2 Food Safety Course</p>
+                <button>
+                  <a href="./pages/foodSafety.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/security guard.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1">
+              <div>
+                <h1>Door Supervisor Course</h1>
+                <p>6 Days Training Course</p>
+                <button>
+                  <a href="./pages/doorSupervisor.html">Read More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- Scroll to Top -->
+    <div class="scroll_to_top">
+      <i class="far fa-long-arrow-alt-up"></i>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+      <div class="container-1">
+        <h2>SMART CERTS Training UK</h2>
+        <p>
+          SMART CERTS Training welcomes you to our website. We specialize in
+          offering top-notch training courses to a range of industries,
+          including door supervisor, CCTV operator, food safety, and first aid
+          courses. Furthermore, we have an abundance of experience providing the
+          community and voluntary sectors, as well as various business sectors,
+          with first-rate security services.
+        </p>
+        <p>
+          Our training staff is made up of skilled and experienced educators
+          with over ten years of experience in related fields and education. To
+          guarantee quality in all of our services, we also work with extremely
+          skilled associate trainers on important training programs.
+        </p>
+        <button><a href="./pages/about.html">Read More</a></button>
+      </div>
+    </section>
+    <!-- Courses Section -->
+    <section class="courses-section container-1" id="courses">
+      <div class="courses-section__flex">
+        <div>
+          <img src="./assets/cctv course.jpg" alt="" />
+          <h3>CCTV Operator Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/cctvOperator.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/security personal.jpg" alt="" />
+          <h3>Security Guarding Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/securityGuarding.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/security trainer course.jpg" alt="" />
+          <h3>Security Trainer Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/securityTraining.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/door supervisor.jpg" alt="" />
+          <h3>Door Supervisor Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/doorSupervisor.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/door supervisor top up.jpg" alt="" />
+          <h3>Door Supervisor Top Up Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/doorSupervisorTop.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/traffice marshal course.jpg" alt="" />
+          <h3>Traffic Marshal Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/trafficMarshal.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/first aid course.jpg" alt="" />
+          <h3>First Aid Courses</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/firstAid.html">Read More</a>
+            </div>
+          </button>
+        </div>
+        <div>
+          <img src="./assets/food safety course.jpg" alt="" />
+          <h3>Food Safety Course</h3>
+
+          <button class="courses-card-btn">
+            <div class="front">
+              <a href="./pages/foodSafety.html">Read More</a>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- How are we different Section -->
+    <section class="offer-section">
+      <div class="offer-section-flexbox">
+        <div class="offer-section-flexbox-left">
+          <div>
+            <h2>
+              How
+              <span> are</span>
+              <span>we </span>
+              <span> Different?</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="offer-section-flexbox-right">
+          <div>
+            <img src="./assets/e34bde25.png" alt="" />
+            <h3>Competitive Course Fees</h3>
+          </div>
+          <div>
+            <img src="./assets/7d813714.png" alt="" />
+            <h3>Full Tutor Support Throughout The Course</h3>
+          </div>
+          <div>
+            <img src="./assets/c12ad8df.png" alt="" />
+            <h3>Well Experienced Trainers</h3>
+          </div>
+          <div>
+            <img src="./assets/6bb30251.png" alt="" />
+            <h3>Individual And Corporate Training</h3>
+          </div>
+          <div>
+            <img src="./assets/bcf089fd.png" alt="" />
+            <h3>90% Plus Pass Rate</h3>
+          </div>
+          <div>
+            <img src="./assets/724646a9.png" alt="" />
+            <h3>Fast Result And Certification</h3>
+          </div>
+          <div>
+            <img src="./assets/782dc45d.png" alt="" />
+            <h3>Recommended By Former Students</h3>
+          </div>
+          <div>
+            <img src="./assets/e34bde25.png" alt="" />
+            <h3>Approved Training Provider</h3>
+          </div>
+          <div>
+            <img src="./assets/da137e56.png" alt="" />
+            <h3>Convenient And Flexible</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- Guarantee Section--------- -->
+    <section class="benefits-section">
+      <div class="benefits-section-grid container-1">
+        <div>
+          <img src="./assets/cost.png" alt="" />
+          <span>Competitive Cost</span>
+        </div>
+        <div>
+          <img src="./assets/privacy.png" alt="" />
+          <span>Privacy-Oriented</span>
+        </div>
+        <div>
+          <img src="./assets/satisfaction.png" alt="" />
+          <span>Complete Satisfaction Promised</span>
+        </div>
+        <div>
+          <img src="./assets/costumer service.png" alt="" />
+          <span>24/7 Client Assistance</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------Footer----------- -->
+    <footer>
+      <div class="footer-grid container-1">
+        <div class="footer-grid-left">
+          <img
+            src="../assets/WhatsApp Image 2024-04-27 at 22.19.05_e68c823a.jpg"
+            alt=""
+          />
+          <p>
+            For any type of training and services. Browse our website and fill
+            out the contact form to schedule a free, no-obligation meeting.
+          </p>
+        </div>
+        <div class="footer-grid-mid">
+          <h4>Quicks Links</h4>
+          <ul>
+            <li>
+              <a href="./index.html"> Home</a>
+            </li>
+
+            <li>
+              <a href="./pages/about.html"> About us</a>
+            </li>
+            <li>
+              <a href="#courses"> Courses</a>
+            </li>
+            <li>
+              <a href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-grid-right">
+          <div>
+            <i class="far fa-mobile"></i> <span>Call Us:</span>
+            <a href="tel:+44 74 667 263 53">+44 74 667 263 53</a>
+          </div>
+          <div>
+            <i class="far fa-envelope"></i><span>Email Us:</span>
+            <a href="mailto:Smartcertsltd@gmail.com">Smartcertsltd@gmail.com</a>
+          </div>
+          <div>
+            <i class="far fa-map-marker-alt"></i>
+            <span>Visit Us:</span>
+            <p>
+              Victory House, Business Park 400 Pavilion Drive Northampton NN4
+              7PA
+            </p>
+          </div>
+        </div>
+      </div>
+      <span class="copyright-text container-1"
+        >Copyright 2023. All rights reserved.</span
+      >
+    </footer>
+  </body>
+  <script src="./js/function.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script>
+    // Main Swiper
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      direction: "vertical",
+      loop: true,
+      speed: 2500,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: true,
+        reverseDirection: true,
+      },
+      controller: {
+        inverse: true,
+      },
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-next",
+      },
+    });
+  </script>
+</html>

@@ -1,0 +1,512 @@
+@media (max-width: 1024px) {
+  .page-hero-img {
+    height: 220px;
+  }
+
+  .hero-image-overlay {
+    height: 220px;
+  }
+  .about-hero-img {
+    height: 220px;
+  }
+  .page-hero-text h1 {
+    font-size: 5rem;
+  }
+  .contact-us-section {
+    margin: 80px auto 100px auto;
+  }
+  .contact-us-section-form {
+    padding: 25px 30px 25px 30px;
+  }
+  .contact-us-section-grid-right {
+    padding: 25px 25px 25px 25px;
+    margin: -15px 0;
+  }
+
+  .why-smartcerts-grid {
+    grid-column-gap: 20px;
+  }
+
+  .courses-section__flex div h3 {
+    line-height: 2.5rem;
+    font-size: 2.3rem;
+  }
+  .offer-section-flexbox-left h2 {
+    font-size: 3.7rem;
+  }
+  .offer-section-flexbox-right div {
+    padding: 15px 15px;
+  }
+  .offer-section-flexbox-right div img {
+    width: 50px;
+  }
+  .offer-section-flexbox-right div h3 {
+    font-size: 1.5rem;
+    margin-top: 7px;
+    line-height: 1.6rem;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 3rem !important;
+  }
+  .swiper {
+    height: 85vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section {
+    margin: 50px auto 100px auto;
+  }
+
+  .courses-section-box .course-name {
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+    line-height: 3.6rem;
+  }
+  .courses-section-box .course-duration {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .courses-section-box > h2 {
+    font-size: 2.7rem;
+    line-height: 3.1rem;
+  }
+  .courses-section-box > p {
+    font-size: 1.4rem;
+  }
+  .courses-section-box ul li {
+    font-size: 1.4rem;
+  }
+
+  .courses-section-box button a {
+    font-size: 1.4rem;
+  }
+  .courses-section-box > h3 {
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
+
+  .courses-section-box > .instruction > p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+  }
+  .footer-grid-left img {
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer-grid-left p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .footer-grid-mid ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .footer-grid-right {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+  }
+  .footer-grid-right div {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .copyright-text {
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+  .pre-header__box div i {
+    font-size: 1.2rem;
+    margin-right: 4px;
+  }
+
+  .pre-header__box div a {
+    font-size: 1.15rem;
+  }
+  .logo {
+    width: 130px;
+  }
+  .header-box {
+    padding: 5px 0;
+  }
+  .contactUs-btn button {
+    font-size: 1.25rem;
+    padding: 8px 18px;
+  }
+  .navlinks > li {
+    margin: 0 0 0 20px;
+  }
+  .page-hero-img {
+    height: 180px;
+  }
+
+  .hero-image-overlay {
+    height: 180px;
+  }
+
+  .page-hero-text h1 {
+    font-size: 4.3rem;
+  }
+  .contact-us-section {
+    margin: 50px auto 100px auto;
+  }
+  .contact-us-section-grid {
+    flex-direction: column;
+  }
+
+  .contact-us-section-form {
+    padding: 25px 30px 25px 30px;
+    width: 100%;
+  }
+  .contact-us-section-grid-right {
+    padding: 25px 25px 25px 25px;
+    width: 100%;
+  }
+  .contact-us-section-grid-right h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  .contact-us-section-form h2 {
+    font-weight: 400 !important;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+  }
+  .about-hero-img {
+    height: 180px;
+  }
+  .why-smartcerts-grid {
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column-reverse;
+    grid-column-gap: 0;
+    row-gap: 20px;
+  }
+  .why-smartcerts-grid-right img {
+    width: 100%;
+    height: 300px;
+  }
+  .why-smartcerts-grid-left div h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .why-smartcerts-grid-left div {
+    justify-content: center;
+    align-items: center;
+  }
+  .why-smartcerts {
+    margin: 40px auto 50px auto;
+  }
+  .about-section-grid {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+  }
+
+  .about-section-grid-right img {
+    width: 100%;
+    height: 280px;
+  }
+  .about-section-bottom p {
+    margin: 5px 0 10px 0;
+  }
+  .intro-section {
+    margin: 50px 0 60px 0;
+    width: 100%;
+  }
+  .intro-section div h2 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    margin-bottom: 13px;
+  }
+  .intro-section div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .courses-section__flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .courses-section__flex div img {
+    aspect-ratio: 1/0.7;
+  }
+  .benefits-section-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 25px 0;
+  }
+  .benefits-section-grid div img {
+    width: 60px;
+  }
+  .benefits-section-grid div {
+    padding: 20px 14px;
+  }
+  .benefits-section-grid span {
+    margin-top: 18px;
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  .benefits-section {
+    margin: 40px auto 50px auto;
+  }
+  .offer-section-flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer-section-flexbox-left {
+    grid-column: 1;
+    width: 100%;
+  }
+  .offer-section-flexbox-right {
+    grid-column: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .offer-section-flexbox-left h2 {
+    font-size: 3rem;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .swiper-slide-content h1 {
+    font-size: 4.8rem;
+    line-height: 5.1rem;
+  }
+  .swiper-slide-content p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide-content button a {
+    padding: 6px 25px;
+    font-size: 1.8rem;
+  }
+  .swiper {
+    height: 70vh;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 2.3rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .courses-section-box .course-name {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    padding-right: 15px;
+  }
+  .courses-section-box img {
+    aspect-ratio: 1/0.75;
+    margin: 10px 0 17px 0;
+  }
+
+  .courses-section-box > h2 {
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+  }
+  .courses-section-box > p {
+    font-size: 1.3rem;
+  }
+  .courses-section-box button a {
+    font-size: 1.3rem;
+  }
+  .courses-section-box ul li {
+    font-size: 1.3rem;
+  }
+  .courses-section-box > h3 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .courses-section-box > .instruction > p {
+    font-size: 1.3rem;
+  }
+  .courses-section-box > .instruction > h4 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  .courses-section-box > .instruction::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -8px;
+    width: 60px;
+    height: 15px;
+    background-color: var(--primary-clr);
+    z-index: 5;
+  }
+  .courses-section-box > .instruction::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    width: 15px;
+    height: 60px;
+    background-color: var(--order-btn-clr);
+    z-index: 5;
+  }
+  .logo {
+    width: 110px;
+  }
+  .header-box {
+    padding: 2px 0;
+  }
+  .contactUs-btn button {
+    font-size: 1.1rem;
+    padding: 8px 14px;
+  }
+  .navlinks > li {
+    margin: 0 0 0 20px;
+  }
+  .page-hero-img {
+    height: 140px;
+  }
+
+  .hero-image-overlay {
+    height: 140px;
+  }
+
+  .page-hero-text h1 {
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+  }
+  .contact-us-section {
+    margin: 40px auto 100px auto;
+  }
+  .about-hero-img {
+    height: 140px;
+  }
+  .why-smartcerts-grid-right img {
+    height: 240px;
+  }
+  .why-smartcerts-grid-left h2 {
+    font-size: 2.6rem;
+    line-height: 2.9rem;
+  }
+  .why-smartcerts-grid-left div p {
+    font-size: 1.35rem;
+  }
+  .about-section {
+    margin: 40px auto 60px auto;
+  }
+  .about-section-grid-left p {
+    font-size: 1.4rem;
+  }
+  .about-section-bottom p {
+    font-size: 1.4rem;
+  }
+  .about-section-bottom span {
+    font-size: 1.4rem;
+  }
+  .intro-section {
+    margin: 50px 0;
+    width: 100%;
+  }
+  .intro-section div h2 {
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+    margin-bottom: 10px;
+  }
+  .intro-section div p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .intro-section div button a {
+    padding: 7px 24px;
+    font-size: 1.4rem;
+  }
+  .courses-section__flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .courses-section__flex div img {
+    aspect-ratio: 1/0.6;
+  }
+  .courses-section__flex div h3 {
+    font-size: 2rem;
+  }
+  .benefits-section-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 0;
+  }
+  .benefits-section-grid div img {
+    width: 50px;
+  }
+  .benefits-section-grid div {
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .benefits-section-grid span {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .footer-grid-mid ul li a {
+    font-size: 1.4rem;
+  }
+
+  .offer-section-flexbox-right div img {
+    width: 45px;
+  }
+  .offer-section-flexbox-right div h3 {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+  }
+  .offer-section-flexbox-left h2 {
+    font-size: 2.4rem;
+    padding: 5px 10px;
+    line-height: 2.6rem;
+  }
+  .scroll_to_top {
+    display: none !important;
+  }
+  .swiper-slide-content h1 {
+    font-size: 3.8rem;
+    line-height: 4.1rem;
+  }
+  .swiper-slide-content p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide-content button a {
+    padding: 6px 17px;
+    font-size: 1.6rem;
+    border-radius: 3px;
+  }
+  .swiper {
+    height: 55vh;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  .navlinks ion-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .navlinks .items {
+    display: none;
+  }
+}

@@ -130,7 +130,7 @@
       <div class="contact-us-section-grid container-1">
         <div class="contact-us-section-form">
           <h2>Get In Touch</h2>
-          <form action="">
+          <form action="" id="contact-form">
             <div>
               <span>
                 <label for="name">Name</label>
@@ -184,10 +184,9 @@
             <h3>
               Address:
               <span>
-                38 Enderby Road
-                <br />
-                LU3 2HQ</span
-              >
+                Pegasus Business Park, Herald Way, Castle Donington, Derby DE74
+                2TZ
+              </span>
             </h3>
           </div>
         </div>
@@ -237,9 +236,8 @@
             <i class="far fa-map-marker-alt"></i>
             <span>Visit Us:</span>
             <p>
-              38 Enderby Road
-              <br />
-              LU3 2HQ
+              Pegasus Business Park, Herald Way, Castle Donington, Derby DE74
+              2TZ
             </p>
           </div>
         </div>
@@ -249,7 +247,40 @@
       >
     </footer>
   </body>
+
   <script src="../js/function.js"></script>
+  <script>
+    // EmailJS
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init({
+        publicKey: "YiFy6ddd5lC0ozmer",
+      });
+    })();
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+        var data = {
+          name: document.getElementsByName("name")[0].value,
+          email: document.getElementsByName("email")[0].value,
+          subject: document.getElementsByName("number")[0].value,
+          message: document.getElementsByName("message")[0].value,
+        };
+        console.log(data);
+        // these IDs from the previous steps
+        emailjs.send("service_ilhk768", "template_krghoun", data).then(
+          () => {
+            alert(
+              "Thank you for contacting us!\nWe will get back to you soon."
+            );
+          },
+          (error) => {
+            console.log("Error Sending Email", error);
+          }
+        );
+      });
+  </script>
   <script
     type="module"
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

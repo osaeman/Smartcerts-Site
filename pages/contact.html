@@ -24,6 +24,10 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="stylesheet" href="../style/responsive.css" />
@@ -38,7 +42,7 @@
         </div>
         <div>
           <i class="fas fa-envelope"></i>
-          <a href="mailto:Smartcertsltd@gmail.com">Smartcertsltd@gmail.com</a>
+          <a href="mailto:Info@smartcertsltd.co.uk">Info@smartcertsltd.co.uk</a>
         </div>
       </div>
     </div>
@@ -167,8 +171,8 @@
             <i class="fas fa-paper-plane"></i>
             <h3>
               Email:
-              <a href="mailto:Smartcertsltd@gmail.com"
-                >Smartcertsltd@gmail.com</a
+              <a href="mailto:Info@smartcertsltd.co.uk"
+                >Info@smartcertsltd.co.uk</a
               >
             </h3>
           </div>
@@ -230,7 +234,9 @@
           </div>
           <div>
             <i class="far fa-envelope"></i><span>Email Us:</span>
-            <a href="mailto:Smartcertsltd@gmail.com">Smartcertsltd@gmail.com</a>
+            <a href="mailto:Info@smartcertsltd.co.uk"
+              >Info@smartcertsltd.co.uk</a
+            >
           </div>
           <div>
             <i class="far fa-map-marker-alt"></i>
@@ -247,8 +253,6 @@
       >
     </footer>
   </body>
-
-  <script src="../js/function.js"></script>
   <script>
     // EmailJS
     (function () {
@@ -264,10 +268,9 @@
         var data = {
           name: document.getElementsByName("name")[0].value,
           email: document.getElementsByName("email")[0].value,
-          subject: document.getElementsByName("number")[0].value,
+          phone: document.getElementsByName("number")[0].value,
           message: document.getElementsByName("message")[0].value,
         };
-        console.log(data);
         // these IDs from the previous steps
         emailjs.send("service_ilhk768", "template_krghoun", data).then(
           () => {
@@ -276,11 +279,12 @@
             );
           },
           (error) => {
-            console.log("Error Sending Email", error);
+            alert("Error Sending Email", error);
           }
         );
       });
   </script>
+  <script src="../js/function.js"></script>
   <script
     type="module"
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

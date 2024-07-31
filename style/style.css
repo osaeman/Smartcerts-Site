@@ -370,7 +370,7 @@ header:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   -ms-animation-name: fadeOverlay;
   -moz-animation-name: fadeOverlay;
   -op-animation-name: fadeOverlay;
@@ -402,11 +402,9 @@ header:hover {
   50% {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  75% {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
+
   100% {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 .swiper-button-prev,
@@ -560,7 +558,10 @@ header:hover {
   display: block;
   margin-top: auto;
 }
-
+.courses-card-btn a {
+  width: 100%;
+  display: block;
+}
 .courses-card-btn {
   color: #121212;
   font-size: 14px;
@@ -575,10 +576,6 @@ header:hover {
   position: relative;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-
-  &:focus-visible {
-    outline-color: #1212df;
-  }
 
   &::before {
     content: "";

@@ -13,21 +13,10 @@
 }
 :root {
   --primary-clr: #bc1101;
-  --order-btn-bg-clr: #d4d4d4;
-  --order-btn-clr: #404040;
-  --border-grad-clr1: #ffccff;
-  --border-grad-clr2: #ccccff;
-  --border-grad-clr3: #ccfeff;
-  --stars-clr: #fed700;
-  --btn-outline-clr: #3fbbfb;
-  --text-clr: #6600cc;
-  --text-hightlight-clr: #f27592;
-  --text-grey-clr: #666666;
-  --border2-grad-clr1: #cbcbcb;
-  --border2-grad-clr2: rgba(103, 103, 103, 0.5);
-  --btn2--bg-clr: #909090;
-  --black-clr: black;
-  --white-clr: white;
+  --secondry-clr: #d6dbec;
+  --third-clr: #4f6199;
+  --fourth-clr: #902827;
+  --fifth-clr: #d7c195;
 }
 html {
   scroll-behavior: smooth;
@@ -67,17 +56,7 @@ a {
 /*----------- Pre Header---------- */
 .pre-header {
   color: white;
-  background: #3e5151; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #decba4,
-    #3e5151
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: var(--fifth-clr);
 }
 .pre-header__box {
   display: flex;
@@ -89,16 +68,16 @@ a {
 
 .pre-header__box div i {
   margin-right: 10px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .pre-header__box div a {
   cursor: pointer;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 /* Header */
 .logo {
-  width: 180px;
+  width: 160px;
   cursor: pointer;
 }
 
@@ -128,8 +107,8 @@ header:hover {
   margin: 0 0 0 22px;
   padding: 10px 0;
   position: relative;
-  font-size: 1.7rem;
-  color: var(--primary-clr);
+  font-size: 1.65rem;
+  color: var(--fourth-clr);
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
@@ -154,9 +133,9 @@ header:hover {
 .sub-navMenu-dropdown {
   position: absolute;
   top: 47px;
-  background-color: var(--primary-clr);
+  background-color: var(--fifth-clr);
   left: 0;
-  width: 300px;
+  width: 270px;
   padding: 23px 20px;
   display: none;
   border-radius: 2px;
@@ -202,7 +181,7 @@ header:hover {
   left: 0;
   width: 100%;
   height: 1.5px;
-  background-color: var(--primary-clr);
+  background-color: var(--fourth-clr);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -219,8 +198,8 @@ header:hover {
   text-decoration: none;
   width: 100%;
   padding: 10px 18px;
-  background-color: firebrick;
-  border-radius: 50px;
+  background-color: var(--fourth-clr);
+  border-radius: 8px;
   outline: none;
   cursor: pointer;
   transition: all 0.5s, ease 0s;
@@ -230,9 +209,8 @@ header:hover {
   margin-left: 20px;
 }
 .contactUs-btn button:hover {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
-  color: var(--primary-clr);
-  background-color: white;
+  color: white;
+  background-color: var(--fifth-clr);
 }
 
 .sidebar {
@@ -251,7 +229,7 @@ header:hover {
   transition: transform 0.3s ease;
   transform: translateX(100%);
   border-bottom-left-radius: 80px;
-  padding: 40px 20px;
+  padding: 40px 40px;
 }
 
 .sidebar li > a {
@@ -350,7 +328,7 @@ header:hover {
 /* Main Swiper */
 .swiper {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 .swiper-slide img {
   width: 100%;
@@ -370,7 +348,7 @@ header:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
   -ms-animation-name: fadeOverlay;
   -moz-animation-name: fadeOverlay;
   -op-animation-name: fadeOverlay;
@@ -426,28 +404,26 @@ header:hover {
   right: 0;
 }
 .swiper-slide-content div > div {
-  background-color: rgba(62, 81, 81, 0.01);
-  padding: 20px 20px;
+  padding: 0;
   width: fit-content;
-  border-radius: 10px;
-  transition: all 0.6s ease-in;
+  border-radius: 20px;
+  color: white;
 }
 .swiper-slide-content div > div:hover {
-  background-color: rgba(62, 81, 81, 0.8);
-  /* background-color: rgba(222, 203, 164, 0.4); */
+  background-color: rgba(214, 219, 236, 0.9);
+  color: var(--third-clr);
+  padding: 20px 70px 20px 28px;
+  transition: all 0.6s ease-in-out;
 }
 .swiper-slide-content h1 {
   font-size: 8rem;
   font-family: "Bebas Neue", sans-serif;
-  color: white;
   font-weight: 500;
   line-height: 8.4rem;
 }
 .swiper-slide-content p {
   font-size: 2.6rem;
   font-family: "Bebas Neue", sans-serif;
-  color: white;
-  margin-bottom: 20px;
   letter-spacing: 2px;
 }
 .swiper-slide-content button {
@@ -457,25 +433,27 @@ header:hover {
   background-color: transparent;
   display: block;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .swiper-slide-content button a {
-  background-color: var(--order-btn-bg-clr);
+  background-color: var(--fourth-clr);
   padding: 7px 25px;
   font-family: "Bebas Neue", sans-serif;
-  border-radius: 14px;
+  border-radius: 8px;
   font-size: 2.5rem;
   display: block;
   letter-spacing: 1px;
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 .swiper-slide-content button a:hover {
-  background-color: #8c9e5e;
+  background-color: var(--third-clr);
   color: white;
 }
 /* ------------Intro Section------------ */
 .intro-section {
-  margin: 70px 0;
+  margin: 130px 0;
   width: 100%;
 }
 .intro-section div h2 {
@@ -485,13 +463,13 @@ header:hover {
   font-weight: 700;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
 }
 .intro-section div p {
-  text-align: center;
   font-size: 1.8rem;
   margin-bottom: 15px;
   letter-spacing: 1px;
+  text-align: center;
 }
 .intro-section div button {
   outline: none;
@@ -501,21 +479,23 @@ header:hover {
   margin: 30px auto 0 auto;
 }
 .intro-section div button a {
-  background-color: var(--primary-clr);
-  color: white;
-  padding: 10px 28px;
+  background-color: var(--fifth-clr);
+  color: black;
+  padding: 7px 25px;
   display: block;
-  border-radius: 2px;
-  font-size: 1.8rem;
   transition: all 0.4s ease-in-out;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 8px;
+  font-size: 2.5rem;
 }
 .intro-section div button a:hover {
-  background-color: var(--order-btn-clr);
+  background-color: var(--secondry-clr);
 }
 /* ------------Courses Section -----------*/
 .courses-section__flex {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 15px;
   grid-column-gap: 15px;
 }
@@ -535,11 +515,12 @@ header:hover {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1.5px;
   text-align: center;
-  margin: 15px 10px 20px 10px;
+  margin: 25px 10px 20px 10px;
+  color: var(--fourth-clr);
 }
 .courses-section__flex div img {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/0.75;
   object-fit: cover;
   object-position: center;
   border-top-left-radius: 23px;
@@ -576,48 +557,44 @@ header:hover {
   position: relative;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-
-  &::before {
-    content: "";
-    z-index: -1;
-    border-radius: inherit;
-    background: #3e5151;
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: opacity 200ms ease;
-  }
-
-  &:hover::before {
-    transition: opacity 100ms ease;
-    opacity: 1;
-  }
-  &:active::before {
-    transition: opacity 100ms ease;
-    opacity: 0;
-  }
-
-  & > .front {
-    padding: 8px 36px;
-    border-radius: inherit;
-    background: #e2e2e2;
-    transition: transform 200ms ease;
-    width: 100%;
-  }
-
-  &:hover > .front {
-    transform: translate(-8px, -8px);
-  }
-  &:active > .front {
-    transition: transform 50ms ease;
-    transform: translate(0px, 0px);
-  }
+}
+.courses-card-btn::before {
+  content: "";
+  z-index: -1;
+  border-radius: inherit;
+  background: #3e5151;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.courses-card-btn:hover::before {
+  transition: opacity 100ms ease;
+  opacity: 1;
+}
+.courses-card-btn:active::before {
+  transition: opacity 100ms ease;
+  opacity: 0;
+}
+.courses-card-btn > .front {
+  padding: 10px 36px;
+  border-radius: inherit;
+  background-color: var(--fifth-clr);
+  transition: transform 200ms ease;
+  width: 100%;
+}
+.courses-card-btn:hover > .front {
+  transform: translate(-8px, -8px);
+}
+.courses-card-btn:active > .front {
+  transition: transform 50ms ease;
+  transform: translate(0px, 0px);
 }
 
 /* -------benefits-section-------- */
 .benefits-section {
   margin: 80px auto;
-  background-color: var(--primary-clr);
+  background-color: var(--fifth-clr);
 }
 
 .benefits-section-grid {
@@ -625,10 +602,10 @@ header:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-row-gap: 30px;
   grid-column-gap: 30px;
-  padding: 30px;
+  padding: 40px 0;
 }
 .benefits-section-grid div img {
-  width: 80px;
+  width: 65px;
 }
 .benefits-section-grid div {
   background-color: white;
@@ -637,13 +614,13 @@ header:hover {
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  padding: 30px 18px;
+  padding: 20px 18px;
 }
 .benefits-section-grid span {
   display: block;
   text-align: center;
   margin-top: 25px;
-  font-size: 2.6rem;
+  font-size: 2.1rem;
   line-height: 2.7rem;
   font-weight: 500;
   color: var(--order-btn-clr);
@@ -656,7 +633,7 @@ header:hover {
 /* Offer Section */
 .offer-section {
   width: 100%;
-  margin: 80px 0 80px 0;
+  margin: 120px 0 120px 0;
 }
 .offer-section-flexbox {
   display: grid;
@@ -665,10 +642,8 @@ header:hover {
 
 .offer-section-flexbox-left {
   grid-column: 1 / span 2;
-  color: white;
-  background-color: #f8fafb;
+  color: var(--fourth-clr);
   height: 100%;
-  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -682,9 +657,10 @@ header:hover {
   font-size: 4.7rem;
   font-weight: 700;
   line-height: 1.1em;
-  padding-bottom: 15px;
+  padding: 15px 15px 15px 50px;
   color: var(--order-btn-clr);
   text-transform: uppercase;
+  word-break: break-all;
 }
 .offer-section-flexbox-left h2 span {
   display: block;
@@ -697,13 +673,13 @@ header:hover {
 
 .offer-section-flexbox-right div {
   text-align: center;
-  padding: 30px 20px;
+  padding: 25px 15px;
 }
 .offer-section-flexbox-right div img {
-  width: 60px;
+  width: 47px;
 }
 .offer-section-flexbox-right div h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: white;
   margin-top: 10px;
@@ -734,21 +710,19 @@ footer {
 
 .footer-grid-left p {
   margin-top: 15px;
-  color: var(--text-grey-clr);
 }
 .footer-grid-mid {
   text-align: center;
 }
 
 .footer-grid-mid h4 {
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
   font-size: 1.8rem;
   margin-bottom: 15px;
 }
 
 .footer-grid-mid ul li a {
   margin-bottom: 5px;
-  color: var(--text-grey-clr);
   display: inline-block;
   font-size: 1.7rem;
 }
@@ -765,29 +739,26 @@ footer {
 .footer-grid-right div i {
   font-size: 2.2rem;
   margin-right: 10px;
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
 }
 .footer-grid-right div > span {
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
 }
 
 .footer-grid-right div > a {
   margin-top: 4px;
   display: block;
-  color: var(--order-btn-clr);
 }
 
 .footer-grid-right div > p {
-  color: var(--order-btn-clr);
-
   margin-top: 4px;
 }
 
 .copyright-text {
   font-size: 1.4rem;
-  border-top: 1.5px solid var(--primary-clr);
+  border-top: 1.5px solid var(--fourth-clr);
   text-align: center;
   padding: 20px;
   display: block;
@@ -832,24 +803,15 @@ footer {
 
 /* --------- Contact Us Section ----------- */
 .contact-us-section {
-  margin: 100px auto;
+  margin: 140px auto;
 }
 
 .contact-us-section-grid {
   display: flex;
   flex-direction: row;
   background-color: #fdfcfc;
+  background-color: var(--fifth-clr);
   border-radius: 5px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
 }
 
 .contact-us-section-form {
@@ -857,9 +819,10 @@ footer {
   padding: 30px 40px 30px 40px;
 }
 .contact-us-section-form h2 {
-  font-weight: 400 !important;
-  font-size: 2.7rem;
+  font-weight: 500 !important;
+  font-size: 3.3rem;
   margin-bottom: 10px;
+  font-family: "bebas neue", sans-serif;
 }
 .contact-us-section-form form div {
   display: flex;
@@ -884,7 +847,7 @@ footer {
   background: none;
   outline: none;
   border: none;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid black;
   padding: 5px 10px 5px 0;
   width: 100%;
 }
@@ -895,7 +858,6 @@ footer {
   font-size: 1.6rem;
   font-weight: 400;
   background: none;
-  background-color: var(--primary-shade-2);
   color: #ffffff;
   outline: none;
   border: none;
@@ -904,50 +866,52 @@ footer {
   border-radius: 3px;
   transform: translateX(0);
   transition: transform 0.4s ease-in;
-  background-color: var(--primary-clr);
-  opacity: 0.6;
+  background-color: var(--fourth-clr);
+  cursor: pointer;
 }
 .contact-us-section-form form button:hover {
   transition: all 0.4s ease-in;
   transform: translateX(20px);
   opacity: 1;
+  background-color: var(--primary-clr);
 }
 .contact-us-section-grid-right {
   width: 35%;
-  padding: 30px 60px 30px 30px;
+  padding: 50px 40px 30px 40px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--order-btn-clr);
   margin: -15px 0;
   border-radius: 5px;
+  background-color: var(--fourth-clr);
 }
 .contact-us-section-grid-right h2 {
-  font-weight: 400 !important;
-  font-size: 2.7rem;
+  font-weight: 500 !important;
+  font-size: 3.3rem;
   margin-bottom: 20px;
-  color: #fff;
+  font-family: "bebas neue", sans-serif;
+  color: white;
 }
 .contact-us-section-grid-right div {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  color: #fff;
   margin-bottom: 30px;
 }
 .contact-us-section-grid-right h3 {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  color: white;
 }
 .contact-us-section-grid-right h3 a,
 .contact-us-section-grid-right h3 span {
   font-weight: 300;
 }
 .contact-us-section-grid-right div i {
-  color: #fff;
-  font-size: 2.3rem;
+  color: white;
+  font-size: 2.1rem;
   padding: 0 10px 0 0;
   border-radius: 50%;
   margin-right: 6px;
@@ -980,7 +944,7 @@ footer {
 }
 
 .why-smartcerts-grid-left h2 {
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
   font-family: "Bebas Neue", sans-serif;
   font-size: 3.5rem;
   letter-spacing: 1px;
@@ -1000,11 +964,11 @@ footer {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   transform: rotateZ(180deg);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 2.2rem;
-  letter-spacing: 3px;
-  background-color: var(--primary-clr);
-  color: white;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  background-color: var(--fifth-clr);
+  color: black;
   padding: 12px 8px;
   border-radius: 2px;
 }
@@ -1025,7 +989,7 @@ footer {
   font-size: 1.8rem;
 }
 .about-section-grid-left p span {
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
   font-weight: 600;
 }
 
@@ -1038,30 +1002,30 @@ footer {
 }
 
 .about-section-bottom p {
-  color: var(--text-grey-clr);
+  color: #3e5151;
   margin: 40px 0 10px 0;
   font-size: 1.8rem;
 }
 .about-section-bottom span {
-  color: var(--order-btn-clr);
+  color: #3e5151;
   font-size: 1.8rem;
   display: block;
 }
 .about-section-bottom span a {
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
   font-size: 1.8rem;
   font-weight: 600;
 }
 /* ---------------------Courses Page-------------------- */
 /*--------- CCTV Operator Page ----------- */
 .courses-section {
-  margin: 80px auto 100px auto;
+  margin: 80px auto 120px auto;
 }
 
 .courses-section-box .course-name {
-  color: var(--primary-clr);
+  color: var(--fourth-clr);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 5rem;
+  font-size: 4.8rem;
   letter-spacing: 1px;
   margin-bottom: 5px;
   line-height: 5.3rem;
@@ -1085,25 +1049,26 @@ footer {
   margin: 20px 0 25px 0;
 }
 
-.courses-section-box > h2 {
-  color: var(--primary-clr);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
-  letter-spacing: 1px;
-  margin-bottom: 7px;
-  line-height: 4.4rem;
-  font-weight: 400;
-}
-
 .courses-section-box > p {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   margin-bottom: 14px;
+  text-align: justify;
 }
-.courses-section-box > span {
-  font-size: 1.9rem;
-  margin-bottom: 12px;
-  font-weight: 500;
-  color: #3e5151;
+.courses-section-box > ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  text-indent: -26px;
+  margin-left: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.courses-section-box ul li {
+  font-size: 1.8rem;
+  margin-bottom: 7px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .courses-section-box button {
@@ -1115,79 +1080,27 @@ footer {
 }
 
 .courses-section-box button a {
-  background-color: var(--primary-clr);
+  background-color: var(--fourth-clr);
   color: white;
   display: block;
   text-transform: uppercase;
-  font-size: 1.8rem;
-  padding: 12px 28px;
-  border-radius: 2px;
+  font-size: 1.7rem;
+  padding: 12px 24px;
+  border-radius: 6px;
   transition: all 0.5s ease-in;
 }
 
 .courses-section-box button a:hover {
-  background-color: var(--order-btn-clr);
+  background-color: var(--fifth-clr);
   color: white;
-}
-
-.courses-section-box ul {
-  margin-bottom: 20px;
-}
-
-.courses-section-box ul li {
-  font-size: 1.9rem;
-  margin-bottom: 7px;
-  list-style-type: disc;
-  list-style-position: inside;
-}
-
-.courses-section-box > h3 {
-  color: var(--primary-clr);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
-  letter-spacing: 1px;
-  margin: 25px 0 4px 0;
-  line-height: 3.4rem;
-  font-weight: 400;
-}
-
-.courses-section-box > .instruction {
-  border: 4px solid var(--primary-clr);
-  margin: 25px 0;
-  padding: 15px;
-  position: relative;
-}
-.courses-section-box > .instruction::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  right: -10px;
-  width: 60px;
-  height: 20px;
-  background-color: var(--primary-clr);
-  z-index: 5;
-}
-.courses-section-box > .instruction::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: -10px;
-  width: 20px;
-  height: 60px;
-  background-color: var(--order-btn-clr);
-  z-index: 5;
-}
-.courses-section-box > .instruction > h4 {
-  margin-bottom: 12px;
-  font-size: 2.4rem;
-}
-
-.courses-section-box > .instruction > p {
-  font-size: 1.8rem;
-  margin-bottom: 12px;
-  font-weight: 500;
 }
 
 .courses-section-topOrientImg {
   object-position: 50% 25% !important;
+}
+
+.instruction {
+  background-color: var(--fifth-clr);
+  padding: 20px;
+  border-radius: 5px;
 }

@@ -32,16 +32,17 @@
     font-size: 2.3rem;
   }
   .offer-section-flexbox-left h2 {
-    font-size: 3.7rem;
+    font-size: 3.4rem;
+    padding: 15px 15px 15px 35px;
   }
   .offer-section-flexbox-right div {
     padding: 15px 15px;
   }
   .offer-section-flexbox-right div img {
-    width: 50px;
+    width: 40px;
   }
   .offer-section-flexbox-right div h3 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     margin-top: 7px;
     line-height: 2rem;
   }
@@ -50,7 +51,7 @@
     font-size: 3rem !important;
   }
   .swiper {
-    height: 85vh;
+    height: 84vh;
   }
   .contact-us-section-form {
     width: 60%;
@@ -59,9 +60,23 @@
     width: 40%;
   }
   .swiper-slide-content h1 {
-    font-size: 7rem;
-
-    line-height: 7.4rem;
+    font-size: 6.5rem;
+    line-height: 7rem;
+  }
+  .benefits-section-grid span {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .courses-section-box .course-name {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
+  .courses-section-box > p {
+    font-size: 1.7rem;
+  }
+  .courses-section-box > ul li {
+    font-size: 1.7rem;
   }
 }
 
@@ -79,31 +94,16 @@
     font-size: 1.7rem;
     line-height: 2rem;
   }
-  .courses-section-box > h2 {
-    font-size: 3.4rem;
-    line-height: 3.7rem;
-  }
+
   .courses-section-box > p {
     font-size: 1.6rem;
   }
   .courses-section-box ul li {
     font-size: 1.6rem;
   }
-
   .courses-section-box button a {
-    font-size: 1.6rem;
-  }
-  .courses-section-box > h3 {
-    font-size: 2.8rem;
-    line-height: 3.2rem;
-  }
-
-  .courses-section-box > .instruction > p {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-  }
-  .courses-section-box > .instruction > h4 {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
+    padding: 10px 22px;
   }
 
   .footer-grid {
@@ -133,6 +133,19 @@
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0;
   }
+  .footer-grid-mid ul li a {
+    font-size: 1.5rem;
+  }
+  .footer-grid-right div > a {
+    font-size: 1.4rem;
+  }
+
+  .footer-grid-right div > p {
+    font-size: 1.4rem;
+  }
+  .footer-grid-left p {
+    font-size: 1.4rem;
+  }
   .footer-grid-right div {
     text-align: center;
     padding: 0 15px;
@@ -150,14 +163,14 @@
     font-size: 1.15rem;
   }
   .logo {
-    width: 150px;
+    width: 125px;
   }
   .header-box {
-    padding: 5px 0;
+    padding: 0 0;
   }
   .contactUs-btn button {
     font-size: 1.4rem;
-    padding: 8px 18px;
+    padding: 8px 12px;
   }
   .navlinks > li {
     margin: 0 0 0 20px;
@@ -240,7 +253,7 @@
     margin: 5px 0 10px 0;
   }
   .intro-section {
-    margin: 50px 0 60px 0;
+    margin: 80px 0 70px 0;
     width: 100%;
   }
   .intro-section div h2 {
@@ -249,8 +262,10 @@
     margin-bottom: 13px;
   }
   .intro-section div p {
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .intro-section div button a {
+    font-size: 2.2rem;
   }
   .courses-section__flex {
     grid-template-columns: repeat(2, 1fr);
@@ -272,12 +287,17 @@
   }
   .benefits-section-grid span {
     margin-top: 18px;
-    font-size: 2.2rem;
-    line-height: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: inherit;
   }
   .benefits-section {
     margin: 40px auto 50px auto;
   }
+  .benefits-section-grid div img {
+    width: 40px;
+  }
+
   .offer-section-flexbox {
     display: flex;
     flex-direction: column;
@@ -295,7 +315,8 @@
 
   .offer-section-flexbox-left h2 {
     font-size: 3rem;
-    padding: 10px 10px;
+    padding: 0 10px;
+    margin-bottom: 30px;
     text-align: center;
   }
   .offer-section-flexbox-left h2 span {
@@ -306,22 +327,26 @@
     line-height: 5.8rem;
   }
   .swiper-slide-content p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
   }
-
+  .swiper-slide-content button {
+    margin-top: 8px;
+  }
   .swiper-slide-content button a {
-    padding: 8px 25px;
+    padding: 8px 17px;
     font-size: 1.8rem;
-    border-radius: 10px;
   }
 
   .swiper {
-    height: 70vh;
+    height: 65vh;
   }
-  .swiper-button-next:after,
-  .swiper-button-prev:after {
-    font-size: 2.3rem !important;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
   }
 }
 
@@ -336,58 +361,24 @@
     margin: 10px 0 17px 0;
   }
 
-  .courses-section-box > h2 {
-    font-size: 2.7rem;
-    line-height: 2.9rem;
-    padding-right: 15px;
-  }
   .courses-section-box > p {
     font-size: 1.5rem;
   }
-  .courses-section-box button a {
-    font-size: 1.5rem;
+  .courses-section-box > ul {
+    padding-left: 0;
+    padding-right: 0;
   }
   .courses-section-box ul li {
     font-size: 1.5rem;
   }
-  .courses-section-box > h3 {
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-  }
-
-  .courses-section-box > .instruction > p {
-    font-size: 1.5rem;
-  }
-  .courses-section-box > .instruction > h4 {
-    font-size: 1.9rem;
-    line-height: 2.2rem;
-  }
-  .courses-section-box > .instruction::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    right: -8px;
-    width: 60px;
-    height: 15px;
-    background-color: var(--primary-clr);
-    z-index: 5;
-  }
-  .courses-section-box > .instruction::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: -8px;
-    width: 15px;
-    height: 60px;
-    background-color: var(--order-btn-clr);
-    z-index: 5;
+  .courses-section-box button a {
+    font-size: 1.3rem;
+    padding: 8px 18px;
   }
   .logo {
     width: 110px;
   }
-  .header-box {
-    padding: 2px 0;
-  }
+
   .contactUs-btn button {
     font-size: 1.1rem;
     padding: 8px 14px;
@@ -435,22 +426,16 @@
   .about-section-bottom span {
     font-size: 1.5rem;
   }
-  .intro-section {
-    margin: 50px 0;
-    width: 100%;
-  }
+
   .intro-section div h2 {
-    font-size: 3.4rem;
+    font-size: 3.3rem;
     line-height: 3.8rem;
     margin-bottom: 10px;
   }
-  .intro-section div p {
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
+
   .intro-section div button a {
-    padding: 10px 24px;
-    font-size: 1.7rem;
+    padding: 7px 18px;
+    font-size: 2.1rem;
   }
   .courses-section__flex {
     grid-template-columns: repeat(1, 1fr);
@@ -461,39 +446,44 @@
   .courses-section__flex div h3 {
     font-size: 2.4rem;
   }
+  .courses-card-btn > .front {
+    padding: 7px 36px;
+  }
   .benefits-section-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 15px;
     grid-column-gap: 0;
   }
   .benefits-section-grid div img {
-    width: 60px;
+    width: 40px;
   }
   .benefits-section-grid div {
     padding: 20px 15px;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
   .benefits-section-grid span {
     margin-top: 15px;
-    font-size: 2rem;
-    line-height: 2.2rem;
-  }
-  .footer-grid-mid ul li a {
     font-size: 1.4rem;
+    line-height: 2rem;
+    font-family: inherit;
   }
 
+  .offer-section {
+    width: 100%;
+    margin: 0 0 80px 0;
+  }
   .offer-section-flexbox-right div img {
-    width: 45px;
+    width: 35px;
   }
   .offer-section-flexbox-right div h3 {
-    font-size: 1.5rem;
-    line-height: 1.9rem;
+    font-size: 1.3rem;
+    line-height: 1.65rem;
   }
   .offer-section-flexbox-left h2 {
     font-size: 2.4rem;
-    padding: 5px 10px;
     line-height: 2.6rem;
+    margin-bottom: 25px;
   }
   .scroll_to_top {
     display: none !important;
@@ -511,6 +501,8 @@
   }
   .swiper-slide-content div > div:hover {
     background-color: transparent;
+    color: white;
+    padding: 0;
   }
   .swiper-slide-content button a {
     padding: 6px 17px;
@@ -519,10 +511,6 @@
   }
   .swiper {
     height: 50vh;
-  }
-  .swiper-button-prev,
-  .swiper-button-next {
-    display: none;
   }
 }
 
